@@ -107,10 +107,8 @@ class atminterface
      {
         banking userAccount = new banking(1000.00);
 
-        // Create the ATM with the user's account
         atm atm = new atm(userAccount);
 
-        // Display the ATM menu
         atm.showmenu();
     }
 }
